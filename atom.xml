@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>reason&#39;s blog</title>
+  
+  
+  <link href="http://noreason123.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://noreason123.github.io/"/>
+  <updated>2021-10-23T06:50:42.604Z</updated>
+  <id>http://noreason123.github.io/</id>
+  
+  <author>
+    <name>reason</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello，我的第一篇Blog</title>
+    <link href="http://noreason123.github.io/2021/10/23/hello-world/"/>
+    <id>http://noreason123.github.io/2021/10/23/hello-world/</id>
+    <published>2021-10-22T16:00:00.000Z</published>
+    <updated>2021-10-23T06:50:42.604Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code&gt;大家好，我是reason。终于，属于我自己的博客网站搭建好了，接下来让我们一起开始学习计算机吧，一起加油。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;下面是官方的API&quot;&gt;&lt;a href=&quot;#下面是官方的API&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
