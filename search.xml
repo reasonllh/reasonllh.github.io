@@ -11,18 +11,6 @@
         <content type="html"><![CDATA[<h2 id="大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。"><a href="#大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。" class="headerlink" title="大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。"></a>大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。</h2><h2 id="下面是官方API"><a href="#下面是官方API" class="headerlink" title="下面是官方API"></a>下面是官方API</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
-      <categories>
-          
-          <category> 闲聊 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 闲聊 </tag>
-            
-        </tags>
       
     </entry>
     
