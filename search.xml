@@ -4,11 +4,44 @@
   
     
     <entry>
+      <title>Vue3开发学习邂逅</title>
+      <link href="/2021/10/24/vue3-kai-fa-xue-xi-xie-hou/"/>
+      <url>/2021/10/24/vue3-kai-fa-xue-xi-xie-hou/</url>
+      
+        <content type="html"><![CDATA[<h2 id="认识Vue框架"><a href="#认识Vue框架" class="headerlink" title="认识Vue框架"></a>认识Vue框架</h2><h4 id="Vue是一套用于构建用户界面的渐进式框架。"><a href="#Vue是一套用于构建用户界面的渐进式框架。" class="headerlink" title="Vue是一套用于构建用户界面的渐进式框架。"></a>Vue是一套用于构建用户界面的渐进式框架。</h4><p>​    全称是<strong>Vue.js</strong>或者<strong>Vuejs</strong>; </p><p>​    什么是渐进式框架？就是我们可以在项目中一点点来引入或者使用Vue，而不一定需要全部使用Vue来开发整个项目。</p><h4 id="目前Vue在前端处于什么地位？"><a href="#目前Vue在前端处于什么地位？" class="headerlink" title="目前Vue在前端处于什么地位？"></a>目前Vue在前端处于什么地位？</h4><p>​    目前前端最流行的三大框架： <strong>Vue</strong>， <strong>React</strong>，<strong>Angular</strong>.</p><p>​    <img src="https://cdn.jsdelivr.net/gh/noreason123/IMG/d6ebbb7c0b4449216b67367a60e4ff5.png" alt="前端最流行的三大框架" title="前端最流行的三大框架"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue3基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue3 </tag>
+            
+            <tag> Vue框架 </tag>
+            
+            <tag> Vue3基础 </tag>
+            
+            <tag> 前端 </tag>
+            
+            <tag> 前端框架 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello，我的第一篇Blog</title>
       <link href="/2021/10/24/hello-world/"/>
       <url>/2021/10/24/hello-world/</url>
       
-        <content type="html"><![CDATA[<h2 id="大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。"><a href="#大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。" class="headerlink" title="大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。"></a>大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。</h2><h2 id="下面是官方API"><a href="#下面是官方API" class="headerlink" title="下面是官方API"></a>下面是官方API</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。"><a href="#大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。" class="headerlink" title="大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。"></a>大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。</h2><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"Hello World"</span></code></pre>]]></content>
       
       
       <categories>
