@@ -6,7 +6,7 @@
   <link href="http://noreason123.github.io/atom.xml" rel="self"/>
   
   <link href="http://noreason123.github.io/"/>
-  <updated>2021-10-23T06:50:42.604Z</updated>
+  <updated>2021-10-24T09:11:12.803Z</updated>
   <id>http://noreason123.github.io/</id>
   
   <author>
@@ -18,24 +18,26 @@
   
   <entry>
     <title>Hello，我的第一篇Blog</title>
-    <link href="http://noreason123.github.io/2021/10/23/hello-world/"/>
-    <id>http://noreason123.github.io/2021/10/23/hello-world/</id>
-    <published>2021-10-22T16:00:00.000Z</published>
-    <updated>2021-10-23T06:50:42.604Z</updated>
+    <link href="http://noreason123.github.io/2021/10/24/hello-world/"/>
+    <id>http://noreason123.github.io/2021/10/24/hello-world/</id>
+    <published>2021-10-23T16:00:00.000Z</published>
+    <updated>2021-10-24T09:11:12.803Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;pre&gt;&lt;code&gt;大家好，我是reason。终于，属于我自己的博客网站搭建好了，接下来让我们一起开始学习计算机吧，一起加油。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id=&quot;下面是官方的API&quot;&gt;&lt;a href=&quot;#下面是官方的API&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。&quot;&gt;&lt;a</summary>
         
       
     
     
     
+    <category term="闲聊" scheme="http://noreason123.github.io/categories/%E9%97%B2%E8%81%8A/"/>
+    
+    
+    <category term="闲聊" scheme="http://noreason123.github.io/tags/%E9%97%B2%E8%81%8A/"/>
     
   </entry>
   
