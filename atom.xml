@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>reason&#39;s blog</title>
   
-  <subtitle>no reason</subtitle>
+  <subtitle>No Reason</subtitle>
   <link href="http://noreason123.github.io/atom.xml" rel="self"/>
   
   <link href="http://noreason123.github.io/"/>
@@ -10,7 +10,7 @@
   <id>http://noreason123.github.io/</id>
   
   <author>
-    <name>reason</name>
+    <name>Reason</name>
     
   </author>
   
