@@ -6,7 +6,7 @@
   <link href="http://noreason123.github.io/atom.xml" rel="self"/>
   
   <link href="http://noreason123.github.io/"/>
-  <updated>2022-01-08T01:19:35.523Z</updated>
+  <updated>2022-05-18T07:58:38.560Z</updated>
   <id>http://noreason123.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>代码提交规范--Angular</title>
+    <link href="http://noreason123.github.io/2022/05/18/dai-ma-ti-jiao-gui-fan-angular/"/>
+    <id>http://noreason123.github.io/2022/05/18/dai-ma-ti-jiao-gui-fan-angular/</id>
+    <published>2022-05-18T07:53:55.000Z</published>
+    <updated>2022-05-18T07:58:38.560Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;git-commit规范-—-Angular提交规范&quot;&gt;&lt;a href=&quot;#git-commit规范-—-Angular提交规范&quot; class=&quot;headerlink&quot; title=&quot;git commit规范 — Angular提交规范&quot;&gt;&lt;/a&gt;git</summary>
+        
+      
+    
+    
+    
+    <category term="Angular规范" scheme="http://noreason123.github.io/categories/Angular%E8%A7%84%E8%8C%83/"/>
+    
+    
+    <category term="前端" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="前端框架" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
+    
+    <category term="Angular" scheme="http://noreason123.github.io/tags/Angular/"/>
+    
+    <category term="Angular规范" scheme="http://noreason123.github.io/tags/Angular%E8%A7%84%E8%8C%83/"/>
+    
+  </entry>
   
   <entry>
     <title>小程序实战项目</title>

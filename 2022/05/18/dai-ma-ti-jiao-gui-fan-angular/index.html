@@ -4,8 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签: 前端基础, reason&#39;s blog">
-    <meta name="description" content="标签: 前端基础 | reason&#39;s blog">
+    <meta name="keywords" content="代码提交规范--Angular, reason&#39;s blog">
+    <meta name="description" content="git commit规范 — Angular提交规范代码提交风格通常我们的git commit会按照统一的风格来提交，这样可以快速定位每次提交的内容，方便之后对版本进行控制。
+
+但是如果每次手动来编写这些是比较麻烦的事情，我们可以使用一个工">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +19,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签: 前端基础 | reason&#39;s blog</title>
+    <title>代码提交规范--Angular | reason&#39;s blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -306,227 +308,499 @@
 
 </header>
 
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                No Reason
-                
-            </div>
+    
 
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "从来没有真正的绝境, 只有心灵的迷途",
-                            
-                                "Never really desperate, only the lost of the soul",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">代码提交规范--Angular</h1>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
 
 
-    </div>
-</div>
-
-<main class="content">
+<main class="container content">
 
     
-
-<div id="tags" class="container chip-container">
+    <!-- 文章内容详情 -->
+<div id="artDetail">
     <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                                <span class="chip bg-color">前端</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">
+                                <span class="chip bg-color">前端框架</span>
+                            </a>
+                        
+                            <a href="/tags/Angular/">
+                                <span class="chip bg-color">Angular</span>
+                            </a>
+                        
+                            <a href="/tags/Angular%E8%A7%84%E8%8C%83/">
+                                <span class="chip bg-color">Angular规范</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Angular%E8%A7%84%E8%8C%83/" class="post-category">
+                                Angular规范
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
-            <div class="tag-chips">
+
+            <div class="post-info">
                 
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2022-05-18
+                </div>
                 
-                <a href="/tags/Vue3/" title="Vue3: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Vue3" style="background-color: #F9EBEA;">Vue3
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
+
                 
+
                 
-                <a href="/tags/Vue%E6%A1%86%E6%9E%B6/" title="Vue框架: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Vue框架" style="background-color: #F5EEF8;">Vue框架
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    402
+                </div>
                 
+
                 
-                <a href="/tags/Vue3%E5%9F%BA%E7%A1%80/" title="Vue3基础: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Vue3基础" style="background-color: #D5F5E3;">Vue3基础
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E5%89%8D%E7%AB%AF/" title="前端: 5">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="前端" style="background-color: #E8F8F5;">前端
-                        <span class="tag-length">5</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/" title="前端框架: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="前端框架" style="background-color: #FEF9E7;">前端框架
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Vue%E6%A8%A1%E6%9D%BF/" title="Vue模板: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Vue模板" style="background-color: #F8F9F9;">Vue模板
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E9%97%B2%E8%81%8A/" title="闲聊: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="闲聊" style="background-color: #82E0AA;">闲聊
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Angular/" title="Angular: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Angular" style="background-color: #D7BDE2;">Angular
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Angular%E8%A7%84%E8%8C%83/" title="Angular规范: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Angular规范" style="background-color: #A3E4D7;">Angular规范
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E5%AE%9E%E6%88%98/" title="实战: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="实战" style="background-color: #85C1E9;">实战
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" title="小程序: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="小程序" style="background-color: #F8C471;">小程序
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/" title="前端基础: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="前端基础" style="background-color: #F9E79F;">前端基础
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/this/" title="this: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="this" style="background-color: #A3E4D7;">this
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
+
                 
             </div>
         </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h3 id="git-commit规范-—-Angular提交规范"><a href="#git-commit规范-—-Angular提交规范" class="headerlink" title="git commit规范 — Angular提交规范"></a>git commit规范 — Angular提交规范</h3><h4 id="代码提交风格"><a href="#代码提交风格" class="headerlink" title="代码提交风格"></a>代码提交风格</h4><p>通常我们的git commit会按照统一的风格来提交，这样可以快速定位每次提交的内容，方便之后对版本进行控制。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqw17gaqjj30to0cj3zp.jpg"></p>
+<p>但是如果每次手动来编写这些是比较麻烦的事情，我们可以使用一个工具：Commitizen</p>
+<ul>
+<li>Commitizen 是一个帮助我们编写规范 commit message 的工具；</li>
+</ul>
+<p>1.安装Commitizen</p>
+<pre class=" language-shell"><code class="language-shell">npm install commitizen -D
+</code></pre>
+<p>2.安装cz-conventional-changelog，并且初始化cz-conventional-changelog：</p>
+<pre class=" language-shell"><code class="language-shell">npx commitizen init cz-conventional-changelog --save-dev --save-exact
+</code></pre>
+<p>这个命令会帮助我们安装cz-conventional-changelog：</p>
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqvz2odi4j30ek00zmx2.jpg" alt="image-20210723145249096"></p>
+<p>并且在package.json中进行配置：</p>
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqvzftay5j30iu04k74d.jpg"></p>
+<p>这个时候我们提交代码需要使用 <code>npx cz</code>：</p>
+<ul>
+<li>第一步是选择type，本次更新的类型</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>feat</td>
+<td>新增特性 (feature)</td>
+</tr>
+<tr>
+<td>fix</td>
+<td>修复 Bug(bug fix)</td>
+</tr>
+<tr>
+<td>docs</td>
+<td>修改文档 (documentation)</td>
+</tr>
+<tr>
+<td>style</td>
+<td>代码格式修改(white-space, formatting, missing semi colons, etc)</td>
+</tr>
+<tr>
+<td>refactor</td>
+<td>代码重构(refactor)</td>
+</tr>
+<tr>
+<td>perf</td>
+<td>改善性能(A code change that improves performance)</td>
+</tr>
+<tr>
+<td>test</td>
+<td>测试(when adding missing tests)</td>
+</tr>
+<tr>
+<td>build</td>
+<td>变更项目构建或外部依赖（例如 scopes: webpack、gulp、npm 等）</td>
+</tr>
+<tr>
+<td>ci</td>
+<td>更改持续集成软件的配置文件和 package 中的 scripts 命令，例如 scopes: Travis, Circle 等</td>
+</tr>
+<tr>
+<td>chore</td>
+<td>变更构建流程或辅助工具(比如更改测试环境)</td>
+</tr>
+<tr>
+<td>revert</td>
+<td>代码回退</td>
+</tr>
+</tbody></table>
+<ul>
+<li>第二步选择本次修改的范围（作用域）</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqw8ca15oj30r600wmx4.jpg" alt="image-20210723150147510"></p>
+<ul>
+<li>第三步选择提交的信息</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqw8mq3zlj60ni01hmx402.jpg" alt="image-20210723150204780"></p>
+<ul>
+<li>第四步提交详细的描述信息</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqw8y05bjj30kt01fjrb.jpg" alt="image-20210723150223287"></p>
+<ul>
+<li>第五步是否是一次重大的更改</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqw9z5vbij30bm00q744.jpg" alt="image-20210723150322122"></p>
+<ul>
+<li>第六步是否影响某个open issue</li>
+</ul>
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqwar8xp1j30fq00ya9x.jpg" alt="image-20210723150407822"></p>
+<p>我们也可以在scripts中构建一个命令来执行 cz：</p>
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqwc4gtkxj30e207174t.jpg" alt="image-20210723150526211"></p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Reason</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://noreason123.github.io/2022/05/18/dai-ma-ti-jiao-gui-fan-angular/">http://noreason123.github.io/2022/05/18/dai-ma-ti-jiao-gui-fan-angular/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Reason</a>
+                    !
+                </span>
+            </div>
+        
     </div>
-</div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                                    <span class="chip bg-color">前端</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">
+                                    <span class="chip bg-color">前端框架</span>
+                                </a>
+                            
+                                <a href="/tags/Angular/">
+                                    <span class="chip bg-color">Angular</span>
+                                </a>
+                            
+                                <a href="/tags/Angular%E8%A7%84%E8%8C%83/">
+                                    <span class="chip bg-color">Angular规范</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
 
     
 
-    <article id="articles" class="container articles">
-        <div class="row tags-posts">
-            
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="前端, 前端基础, this" data-aos="fade-up">
-                <div class="card">
-                    <a href="/2021/11/13/ao-you-qian-duan-zhi-this/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="遨游前端之this">
-                            
-                            <span class="card-title">遨游前端之this</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-13
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E5%89%8D%E7%AB%AF/" class="post-category">
-                                前端
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
+</div>
+
                 </div>
             </div>
             
         </div>
-    </article>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2022/05/18/dai-ma-ti-jiao-gui-fan-angular/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="代码提交规范--Angular">
+                        
+                        <span class="card-title">代码提交规范--Angular</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-18
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Angular%E8%A7%84%E8%8C%83/" class="post-category">
+                                    Angular规范
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                        <span class="chip bg-color">前端</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">
+                        <span class="chip bg-color">前端框架</span>
+                    </a>
+                    
+                    <a href="/tags/Angular/">
+                        <span class="chip bg-color">Angular</span>
+                    </a>
+                    
+                    <a href="/tags/Angular%E8%A7%84%E8%8C%83/">
+                        <span class="chip bg-color">Angular规范</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/01/08/xiao-cheng-xu-shi-zhan-xiang-mu-zhan-wang/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="小程序实战项目">
+                        
+                        <span class="card-title">小程序实战项目</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-08
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%89%8D%E7%AB%AF/" class="post-category">
+                                    前端
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                        <span class="chip bg-color">前端</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%AE%9E%E6%88%98/">
+                        <span class="chip bg-color">实战</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
+                        <span class="chip bg-color">小程序</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE' || selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: reason&#39;s blog<br />'
+            + '文章作者: Reason<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    
+
 </main>
 
 

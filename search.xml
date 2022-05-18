@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>代码提交规范--Angular</title>
+      <link href="/2022/05/18/dai-ma-ti-jiao-gui-fan-angular/"/>
+      <url>/2022/05/18/dai-ma-ti-jiao-gui-fan-angular/</url>
+      
+        <content type="html"><![CDATA[<h3 id="git-commit规范-—-Angular提交规范"><a href="#git-commit规范-—-Angular提交规范" class="headerlink" title="git commit规范 — Angular提交规范"></a>git commit规范 — Angular提交规范</h3><h4 id="代码提交风格"><a href="#代码提交风格" class="headerlink" title="代码提交风格"></a>代码提交风格</h4><p>通常我们的git commit会按照统一的风格来提交，这样可以快速定位每次提交的内容，方便之后对版本进行控制。</p><p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqw17gaqjj30to0cj3zp.jpg"></p><p>但是如果每次手动来编写这些是比较麻烦的事情，我们可以使用一个工具：Commitizen</p><ul><li>Commitizen 是一个帮助我们编写规范 commit message 的工具；</li></ul><p>1.安装Commitizen</p><pre class=" language-shell"><code class="language-shell">npm install commitizen -D</code></pre><p>2.安装cz-conventional-changelog，并且初始化cz-conventional-changelog：</p><pre class=" language-shell"><code class="language-shell">npx commitizen init cz-conventional-changelog --save-dev --save-exact</code></pre><p>这个命令会帮助我们安装cz-conventional-changelog：</p><p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqvz2odi4j30ek00zmx2.jpg" alt="image-20210723145249096"></p><p>并且在package.json中进行配置：</p><p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqvzftay5j30iu04k74d.jpg"></p><p>这个时候我们提交代码需要使用 <code>npx cz</code>：</p><ul><li>第一步是选择type，本次更新的类型</li></ul><table><thead><tr><th>Type</th><th>作用</th></tr></thead><tbody><tr><td>feat</td><td>新增特性 (feature)</td></tr><tr><td>fix</td><td>修复 Bug(bug fix)</td></tr><tr><td>docs</td><td>修改文档 (documentation)</td></tr><tr><td>style</td><td>代码格式修改(white-space, formatting, missing semi colons, etc)</td></tr><tr><td>refactor</td><td>代码重构(refactor)</td></tr><tr><td>perf</td><td>改善性能(A code change that improves performance)</td></tr><tr><td>test</td><td>测试(when adding missing tests)</td></tr><tr><td>build</td><td>变更项目构建或外部依赖（例如 scopes: webpack、gulp、npm 等）</td></tr><tr><td>ci</td><td>更改持续集成软件的配置文件和 package 中的 scripts 命令，例如 scopes: Travis, Circle 等</td></tr><tr><td>chore</td><td>变更构建流程或辅助工具(比如更改测试环境)</td></tr><tr><td>revert</td><td>代码回退</td></tr></tbody></table><ul><li>第二步选择本次修改的范围（作用域）</li></ul><p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqw8ca15oj30r600wmx4.jpg" alt="image-20210723150147510"></p><ul><li>第三步选择提交的信息</li></ul><p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqw8mq3zlj60ni01hmx402.jpg" alt="image-20210723150204780"></p><ul><li>第四步提交详细的描述信息</li></ul><p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqw8y05bjj30kt01fjrb.jpg" alt="image-20210723150223287"></p><ul><li>第五步是否是一次重大的更改</li></ul><p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqw9z5vbij30bm00q744.jpg" alt="image-20210723150322122"></p><ul><li>第六步是否影响某个open issue</li></ul><p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqwar8xp1j30fq00ya9x.jpg" alt="image-20210723150407822"></p><p>我们也可以在scripts中构建一个命令来执行 cz：</p><p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsqwc4gtkxj30e207174t.jpg" alt="image-20210723150526211"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Angular规范 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+            <tag> 前端框架 </tag>
+            
+            <tag> Angular </tag>
+            
+            <tag> Angular规范 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>小程序实战项目</title>
       <link href="/2022/01/08/xiao-cheng-xu-shi-zhan-xiang-mu-zhan-wang/"/>
       <url>/2022/01/08/xiao-cheng-xu-shi-zhan-xiang-mu-zhan-wang/</url>
