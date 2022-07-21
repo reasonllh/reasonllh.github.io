@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello，我的第一篇Blog, reason&#39;s blog">
-    <meta name="description" content="Blog，我来了....">
+    <meta name="keywords" content="JavaScript应用, reason&#39;s blog">
+    <meta name="description" content="​        前端行业在近几年快速发展，并且开发模式、框架越来越丰富。但是不管你学习的是Vue、React、Angular，包括之前的jQuery，以及后续新出的框架 — 他们本身都是基于JavaScript的，使用他们的过程中你都必须">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello，我的第一篇Blog | reason&#39;s blog</title>
+    <title>JavaScript应用 | reason&#39;s blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello，我的第一篇Blog</h1>
+                    <h1 class="description center-align post-title">JavaScript应用</h1>
                 </div>
             </div>
         </div>
@@ -325,10 +325,104 @@
 
 
 
-<main class="container content">
+<main class="post-container content">
 
     
-    <!-- 文章内容详情 -->
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
@@ -337,8 +431,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E9%97%B2%E8%81%8A/">
-                                <span class="chip bg-color">闲聊</span>
+                            <a href="/tags/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/">
+                                <span class="chip bg-color">前端基础</span>
+                            </a>
+                        
+                            <a href="/tags/JavaScript/">
+                                <span class="chip bg-color">JavaScript</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                                <span class="chip bg-color">前端</span>
                             </a>
                         
                     </div>
@@ -349,8 +451,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E9%97%B2%E8%81%8A/" class="post-category">
-                                闲聊
+                            <a href="/categories/%E5%89%8D%E7%AB%AF/" class="post-category">
+                                前端
                             </a>
                         
                     </div>
@@ -362,7 +464,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-10-24
+                    2022-07-21
                 </div>
                 
 
@@ -371,7 +473,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    66
+                    373
                 </div>
                 
 
@@ -388,8 +490,18 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。"><a href="#大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。" class="headerlink" title="大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。"></a>大家好，我是华南农业大学软件工程在读本科生reason。终于，经过我一天的折腾，属于我自己的博客网站搭建好了，接下来让我们一起开始学习吧，一起加油。</h2><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"Hello World"</span>
-</code></pre>
+                <p>​        前端行业在近几年快速发展，并且开发模式、框架越来越丰富。但是不管你学习的是Vue、React、Angular，包括之前的jQuery，以及后续新出的框架 — 他们本身都是基于JavaScript的，使用他们的过程中你都必须好好掌握JavaScript。所以<strong>JavaScript是我们前端万丈高楼的根基，无论是前端发展的万丈高楼，还是我们筑建自己的万丈高楼。</strong></p>
+<p>​        Stack Overflow的创立者之一的 Jeff Atwood 在2007年提出了著名的 <strong>Atwood定律</strong>：</p>
+<p>​        <em>Any application that can be written in JavaScript, will eventually be written in JavaScript.</em><br>​        任何可以使用JavaScript来实现的应用都最终都会使用JavaScript实现。</p>
+<h2 id="JavaScript应用越来越广泛"><a href="#JavaScript应用越来越广泛" class="headerlink" title="JavaScript应用越来越广泛"></a>JavaScript应用越来越广泛</h2><p><strong>Web开发：</strong> 原生JavaScript、react开发、vue开发、Angular开发</p>
+<p><strong>移动端开发：</strong>ReactNative、Weex</p>
+<p><strong>小程序端开发：</strong>微信小程序、支付宝小程序、uniapp、taro</p>
+<p><strong>桌面应用开发：</strong>Electron，比如VSCode<br><strong>后端开发：</strong>Node环境，比如express、koa、egg.js</p>
+<h2 id="JavaScript有许多让人难以掌握的知识点"><a href="#JavaScript有许多让人难以掌握的知识点" class="headerlink" title="JavaScript有许多让人难以掌握的知识点"></a>JavaScript有许多让人难以掌握的知识点</h2><p><strong>面向对象：</strong>JavaScript面向对象、继承、原型、原型链等</p>
+<p><strong>ES新特性：</strong>ES6、7、8、9、10、11、12新特性</p>
+<p><strong>函数、闭包：</strong>闭包的访问规则、闭包的内存泄露、函数中this的指向</p>
+<p><strong>作用域：</strong>作用域的理解、作用域提升、块级作用域、作用域链、AO、GO、VO等概念</p>
+<p><strong>其他：</strong>事件循环、微任务、宏任务、内存管理、Promise、await、asnyc、防抖、节流等等</p>
 
                 
             </div>
@@ -416,7 +528,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://noreason123.github.io/2021/10/24/hello-world/">http://noreason123.github.io/2021/10/24/hello-world/</a>
+                    <a href="http://noreason123.github.io/2022/07/21/javascript-ying-yong/">http://noreason123.github.io/2022/07/21/javascript-ying-yong/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -454,8 +566,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E9%97%B2%E8%81%8A/">
-                                    <span class="chip bg-color">闲聊</span>
+                                <a href="/tags/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/">
+                                    <span class="chip bg-color">前端基础</span>
+                                </a>
+                            
+                                <a href="/tags/JavaScript/">
+                                    <span class="chip bg-color">JavaScript</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                                    <span class="chip bg-color">前端</span>
                                 </a>
                             
                         </div>
@@ -501,100 +621,36 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021/10/25/vue3-kai-fa-xue-xi-xie-hou/">
+                <a href="/2022/07/21/javascript-ying-yong/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Vue3简介">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="JavaScript应用">
                         
-                        <span class="card-title">Vue3简介</span>
+                        <span class="card-title">JavaScript应用</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-10-25
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Vue3%E5%9F%BA%E7%A1%80/" class="post-category">
-                                    Vue3基础
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%89%8D%E7%AB%AF/">
-                        <span class="chip bg-color">前端</span>
-                    </a>
-                    
-                    <a href="/tags/Vue3/">
-                        <span class="chip bg-color">Vue3</span>
-                    </a>
-                    
-                    <a href="/tags/Vue%E6%A1%86%E6%9E%B6/">
-                        <span class="chip bg-color">Vue框架</span>
-                    </a>
-                    
-                    <a href="/tags/Vue3%E5%9F%BA%E7%A1%80/">
-                        <span class="chip bg-color">Vue3基础</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">
-                        <span class="chip bg-color">前端框架</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/10/24/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Hello，我的第一篇Blog">
-                        
-                        <span class="card-title">Hello，我的第一篇Blog</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Blog，我来了....
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-24
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-21
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E9%97%B2%E8%81%8A/" class="post-category">
-                                    闲聊
+                            <a href="/categories/%E5%89%8D%E7%AB%AF/" class="post-category">
+                                    前端
                                 </a>
                             
                             
@@ -605,8 +661,69 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E9%97%B2%E8%81%8A/">
-                        <span class="chip bg-color">闲聊</span>
+                    <a href="/tags/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/">
+                        <span class="chip bg-color">前端基础</span>
+                    </a>
+                    
+                    <a href="/tags/JavaScript/">
+                        <span class="chip bg-color">JavaScript</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                        <span class="chip bg-color">前端</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/06/29/suan-fa-hui-gu/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="算法回顾">
+                        
+                        <span class="card-title">算法回顾</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-06-29
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%AE%97%E6%B3%95/" class="post-category">
+                                    算法
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%AE%97%E6%B3%95/">
+                        <span class="chip bg-color">算法</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/">
+                        <span class="chip bg-color">时间复杂度</span>
                     </a>
                     
                 </div>
@@ -675,6 +792,100 @@
 
 <script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
 
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
 
     
 

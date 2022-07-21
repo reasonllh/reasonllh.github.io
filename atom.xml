@@ -6,7 +6,7 @@
   <link href="http://noreason123.github.io/atom.xml" rel="self"/>
   
   <link href="http://noreason123.github.io/"/>
-  <updated>2022-06-29T09:36:26.010Z</updated>
+  <updated>2022-07-21T12:57:15.264Z</updated>
   <id>http://noreason123.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript应用</title>
+    <link href="http://noreason123.github.io/2022/07/21/javascript-ying-yong/"/>
+    <id>http://noreason123.github.io/2022/07/21/javascript-ying-yong/</id>
+    <published>2022-07-21T12:46:05.000Z</published>
+    <updated>2022-07-21T12:57:15.264Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​        前端行业在近几年快速发展，并且开发模式、框架越来越丰富。但是不管你学习的是Vue、React、Angular，包括之前的jQuery，以及后续新出的框架 —</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="http://noreason123.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="前端基础" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="JavaScript" scheme="http://noreason123.github.io/tags/JavaScript/"/>
+    
+    <category term="前端" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>算法回顾</title>
@@ -108,13 +137,13 @@
     <category term="Vue3基础" scheme="http://noreason123.github.io/categories/Vue3%E5%9F%BA%E7%A1%80/"/>
     
     
+    <category term="前端" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
     <category term="Vue3" scheme="http://noreason123.github.io/tags/Vue3/"/>
     
     <category term="Vue框架" scheme="http://noreason123.github.io/tags/Vue%E6%A1%86%E6%9E%B6/"/>
     
     <category term="Vue3基础" scheme="http://noreason123.github.io/tags/Vue3%E5%9F%BA%E7%A1%80/"/>
-    
-    <category term="前端" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="前端框架" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
     
@@ -145,9 +174,9 @@
     <category term="前端" scheme="http://noreason123.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-    <category term="前端" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
     <category term="前端基础" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="前端" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="this" scheme="http://noreason123.github.io/tags/this/"/>
     
@@ -175,13 +204,13 @@
     <category term="Vue3基础" scheme="http://noreason123.github.io/categories/Vue3%E5%9F%BA%E7%A1%80/"/>
     
     
+    <category term="前端" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
     <category term="Vue3" scheme="http://noreason123.github.io/tags/Vue3/"/>
     
     <category term="Vue框架" scheme="http://noreason123.github.io/tags/Vue%E6%A1%86%E6%9E%B6/"/>
     
     <category term="Vue3基础" scheme="http://noreason123.github.io/tags/Vue3%E5%9F%BA%E7%A1%80/"/>
-    
-    <category term="前端" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="前端框架" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/"/>
     
