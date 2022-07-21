@@ -6,7 +6,7 @@
   <link href="http://noreason123.github.io/atom.xml" rel="self"/>
   
   <link href="http://noreason123.github.io/"/>
-  <updated>2022-06-29T09:36:26.010Z</updated>
+  <updated>2022-07-20T09:41:30.662Z</updated>
   <id>http://noreason123.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>“JavaScript应用.md”</title>
+    <link href="http://noreason123.github.io/2022/07/20/javascript-ying-yong/"/>
+    <id>http://noreason123.github.io/2022/07/20/javascript-ying-yong/</id>
+    <published>2022-07-20T09:07:50.000Z</published>
+    <updated>2022-07-20T09:41:30.662Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​        前端行业在近几年快速发展，并且开发模式、框架越来越丰富。但是不管你学习的是Vue、React、Angular，包括之前的jQuery，以及后续新出的框架 —</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="http://noreason123.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="前端" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="前端基础" scheme="http://noreason123.github.io/tags/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="JavaScript" scheme="http://noreason123.github.io/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>算法回顾</title>
@@ -79,7 +108,7 @@
     <link href="http://noreason123.github.io/2022/01/08/xiao-cheng-xu-shi-zhan-xiang-mu-zhan-wang/"/>
     <id>http://noreason123.github.io/2022/01/08/xiao-cheng-xu-shi-zhan-xiang-mu-zhan-wang/</id>
     <published>2022-01-08T01:14:05.000Z</published>
-    <updated>2022-06-29T07:06:22.256Z</updated>
+    <updated>2022-07-20T09:19:39.162Z</updated>
     
     
     
@@ -100,7 +129,7 @@
     <link href="http://noreason123.github.io/2021/11/26/vue-mo-ban-yu-fa/"/>
     <id>http://noreason123.github.io/2021/11/26/vue-mo-ban-yu-fa/</id>
     <published>2021-11-26T02:06:44.000Z</published>
-    <updated>2022-05-18T04:58:46.860Z</updated>
+    <updated>2022-07-20T09:18:44.255Z</updated>
     
     
     
@@ -127,7 +156,7 @@
     <link href="http://noreason123.github.io/2021/11/13/ao-you-qian-duan-zhi-this/"/>
     <id>http://noreason123.github.io/2021/11/13/ao-you-qian-duan-zhi-this/</id>
     <published>2021-11-13T02:31:12.000Z</published>
-    <updated>2022-01-08T01:19:10.902Z</updated>
+    <updated>2022-07-20T09:20:27.685Z</updated>
     
     
       
@@ -158,7 +187,7 @@
     <link href="http://noreason123.github.io/2021/10/25/vue3-kai-fa-xue-xi-xie-hou/"/>
     <id>http://noreason123.github.io/2021/10/25/vue3-kai-fa-xue-xi-xie-hou/</id>
     <published>2021-10-25T11:51:25.000Z</published>
-    <updated>2021-10-26T02:07:52.289Z</updated>
+    <updated>2022-07-20T09:18:22.041Z</updated>
     
     
       
@@ -192,7 +221,7 @@
     <link href="http://noreason123.github.io/2021/10/24/hello-world/"/>
     <id>http://noreason123.github.io/2021/10/24/hello-world/</id>
     <published>2021-10-23T16:00:00.000Z</published>
-    <updated>2021-10-25T00:48:33.702Z</updated>
+    <updated>2022-07-20T09:16:53.384Z</updated>
     
     
       

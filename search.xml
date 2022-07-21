@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>“JavaScript应用.md”</title>
+      <link href="/2022/07/20/javascript-ying-yong/"/>
+      <url>/2022/07/20/javascript-ying-yong/</url>
+      
+        <content type="html"><![CDATA[<p>​        前端行业在近几年快速发展，并且开发模式、框架越来越丰富。但是不管你学习的是Vue、React、Angular，包括之前的jQuery，以及后续新出的框架 — 他们本身都是基于JavaScript的，使用他们的过程中你都必须好好掌握JavaScript。所以<strong>JavaScript是我们前端万丈高楼的根基，无论是前端发展的万丈高楼，还是我们筑建自己的万丈高楼。</strong></p><p>​        Stack Overflow的创立者之一的 Jeff Atwood 在2007年提出了著名的 <strong>Atwood定律</strong>：</p><p>​        <em>Any application that can be written in JavaScript, will eventually be written in JavaScript.</em><br>​        任何可以使用JavaScript来实现的应用都最终都会使用JavaScript实现。</p><h2 id="JavaScript应用越来越广泛"><a href="#JavaScript应用越来越广泛" class="headerlink" title="JavaScript应用越来越广泛"></a>JavaScript应用越来越广泛</h2><p><strong>Web开发：</strong> 原生JavaScript、react开发、vue开发、Angular开发</p><p><strong>移动端开发：</strong>ReactNative、Weex</p><p><strong>小程序端开发：</strong>微信小程序、支付宝小程序、uniapp、taro</p><p><strong>桌面应用开发：</strong>Electron，比如VSCode<br><strong>后端开发：</strong>Node环境，比如express、koa、egg.js</p><h2 id="JavaScript有许多让人难以掌握的知识点"><a href="#JavaScript有许多让人难以掌握的知识点" class="headerlink" title="JavaScript有许多让人难以掌握的知识点"></a>JavaScript有许多让人难以掌握的知识点</h2><p><strong>面向对象：</strong>JavaScript面向对象、继承、原型、原型链等</p><p><strong>ES新特性：</strong>ES6、7、8、9、10、11、12新特性</p><p><strong>函数、闭包：</strong>闭包的访问规则、闭包的内存泄露、函数中this的指向</p><p><strong>作用域：</strong>作用域的理解、作用域提升、块级作用域、作用域链、AO、GO、VO等概念</p><p><strong>其他：</strong>事件循环、微任务、宏任务、内存管理、Promise、await、asnyc、防抖、节流等等</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+            <tag> 前端基础 </tag>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>算法回顾</title>
       <link href="/2022/06/29/suan-fa-hui-gu/"/>
       <url>/2022/06/29/suan-fa-hui-gu/</url>
