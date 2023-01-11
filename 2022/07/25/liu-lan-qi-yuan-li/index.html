@@ -4,8 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="小程序实战项目, reason&#39;s blog">
-    <meta name="description" content="小程序实战项目 | reason&#39;s blog">
+    <meta name="keywords" content="浏览器原理, reason&#39;s blog">
+    <meta name="description" content="浏览器渲染过程
+JavaScript引擎为什么需要JavaScript引擎呢？
+高级的编程语言都是需要转成最终的机器指令来执行的；
+事实上我们编写的JavaScript无论你交给浏览器或者Node执行，最后都是需要被CPU执行的；
+但是CP">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +21,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>小程序实战项目 | reason&#39;s blog</title>
+    <title>浏览器原理 | reason&#39;s blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -310,12 +314,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">小程序实战项目</h1>
+                    <h1 class="description center-align post-title">浏览器原理</h1>
                 </div>
             </div>
         </div>
@@ -435,12 +439,12 @@
                                 <span class="chip bg-color">前端</span>
                             </a>
                         
-                            <a href="/tags/%E5%AE%9E%E6%88%98/">
-                                <span class="chip bg-color">实战</span>
+                            <a href="/tags/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/">
+                                <span class="chip bg-color">前端基础</span>
                             </a>
                         
-                            <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
-                                <span class="chip bg-color">小程序</span>
+                            <a href="/tags/JavaScript/">
+                                <span class="chip bg-color">JavaScript</span>
                             </a>
                         
                     </div>
@@ -464,7 +468,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-01-08
+                    2022-07-25
                 </div>
                 
 
@@ -473,7 +477,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    168
                 </div>
                 
 
@@ -490,7 +494,18 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h2 id="浏览器渲染过程"><a href="#浏览器渲染过程" class="headerlink" title="浏览器渲染过程"></a>浏览器渲染过程</h2><p><img src="https://raw.githubusercontent.com/reasonllh/IMG/main/image-20220725155032529.png" alt="浏览器渲染过程"></p>
+<h2 id="JavaScript引擎"><a href="#JavaScript引擎" class="headerlink" title="JavaScript引擎"></a>JavaScript引擎</h2><h3 id="为什么需要JavaScript引擎呢？"><a href="#为什么需要JavaScript引擎呢？" class="headerlink" title="为什么需要JavaScript引擎呢？"></a>为什么需要JavaScript引擎呢？</h3><ul>
+<li>高级的编程语言都是需要转成最终的机器指令来执行的；</li>
+<li>事实上我们编写的JavaScript无论你交给浏览器或者Node执行，最后都是需要被CPU执行的；</li>
+<li>但是CPU只认识自己的指令集，实际上是机器语言，才能被CPU所执行；</li>
+<li>需要JavaScript引擎帮助我们将JavaScript代码翻译成CPU指令来执行；</li>
+</ul>
+<h4 id="比较常见的JavaScript引擎有哪些呢？"><a href="#比较常见的JavaScript引擎有哪些呢？" class="headerlink" title="比较常见的JavaScript引擎有哪些呢？"></a>比较常见的JavaScript引擎有哪些呢？</h4><ul>
+<li>JavaScriptCore：WebKit中的JavaScript引擎，Apple公司开发；</li>
+<li>V8：Google开发的强大JavaScript引擎，也帮助Chrome从众多浏览器中脱颖而出；</li>
+</ul>
+
                 
             </div>
             <hr/>
@@ -506,7 +521,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">Reason</a>
+                    <a href="/about" rel="external nofollow noreferrer">reason</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -516,7 +531,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://noreason123.github.io/2022/01/08/xiao-cheng-xu-shi-zhan-xiang-mu-zhan-wang/">http://noreason123.github.io/2022/01/08/xiao-cheng-xu-shi-zhan-xiang-mu-zhan-wang/</a>
+                    <a href="http://noreason123.github.io/2022/07/25/liu-lan-qi-yuan-li/">http://noreason123.github.io/2022/07/25/liu-lan-qi-yuan-li/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -529,7 +544,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/about" target="_blank">Reason</a>
+                    <a href="/about" target="_blank">reason</a>
                     !
                 </span>
             </div>
@@ -558,12 +573,12 @@
                                     <span class="chip bg-color">前端</span>
                                 </a>
                             
-                                <a href="/tags/%E5%AE%9E%E6%88%98/">
-                                    <span class="chip bg-color">实战</span>
+                                <a href="/tags/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/">
+                                    <span class="chip bg-color">前端基础</span>
                                 </a>
                             
-                                <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">
-                                    <span class="chip bg-color">小程序</span>
+                                <a href="/tags/JavaScript/">
+                                    <span class="chip bg-color">JavaScript</span>
                                 </a>
                             
                         </div>
@@ -613,13 +628,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/05/18/dai-ma-ti-jiao-gui-fan-angular/">
+                <a href="/2023/01/11/test/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="代码提交规范--Angular">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="test">
                         
-                        <span class="card-title">代码提交规范--Angular</span>
+                        <span class="card-title">test</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -630,16 +645,12 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-18
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-01-11
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Angular%E8%A7%84%E8%8C%83/" class="post-category">
-                                    Angular规范
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Reason
                             
                         </span>
                     </div>
@@ -647,20 +658,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%89%8D%E7%AB%AF/">
-                        <span class="chip bg-color">前端</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">
-                        <span class="chip bg-color">前端框架</span>
-                    </a>
-                    
-                    <a href="/tags/Angular/">
-                        <span class="chip bg-color">Angular</span>
-                    </a>
-                    
-                    <a href="/tags/Angular%E8%A7%84%E8%8C%83/">
-                        <span class="chip bg-color">Angular规范</span>
+                    <a href="/tags/test/">
+                        <span class="chip bg-color">test</span>
                     </a>
                     
                 </div>
@@ -674,13 +673,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/11/26/vue-mo-ban-yu-fa/">
+                <a href="/2022/07/24/vue-bi-ji-yi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="Vue模板语法">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="vue笔记（一）">
                         
-                        <span class="card-title">Vue模板语法</span>
+                        <span class="card-title">vue笔记（一）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -691,47 +690,15 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-26
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-24
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Vue3%E5%9F%BA%E7%A1%80/" class="post-category">
-                                    Vue3基础
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Reason
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%89%8D%E7%AB%AF/">
-                        <span class="chip bg-color">前端</span>
-                    </a>
-                    
-                    <a href="/tags/Vue3/">
-                        <span class="chip bg-color">Vue3</span>
-                    </a>
-                    
-                    <a href="/tags/Vue%E6%A1%86%E6%9E%B6/">
-                        <span class="chip bg-color">Vue框架</span>
-                    </a>
-                    
-                    <a href="/tags/Vue3%E5%9F%BA%E7%A1%80/">
-                        <span class="chip bg-color">Vue3基础</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">
-                        <span class="chip bg-color">前端框架</span>
-                    </a>
-                    
-                    <a href="/tags/Vue%E6%A8%A1%E6%9D%BF/">
-                        <span class="chip bg-color">Vue模板</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -962,7 +929,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2022</span>
+                <span id="year">2019-2023</span>
             
             <a href="/about" target="_blank">Reason</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
