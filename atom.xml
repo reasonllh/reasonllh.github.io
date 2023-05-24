@@ -6,7 +6,7 @@
   <link href="https://reasonllh.github.io/atom.xml" rel="self"/>
   
   <link href="https://reasonllh.github.io/"/>
-  <updated>2023-01-11T12:58:24.185Z</updated>
+  <updated>2023-01-11T14:05:46.045Z</updated>
   <id>https://reasonllh.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://reasonllh.github.io/2023/01/11/picgo-tu-chuang-she-zhi-yu-typora-pei-zhi/"/>
     <id>https://reasonllh.github.io/2023/01/11/picgo-tu-chuang-she-zhi-yu-typora-pei-zhi/</id>
     <published>2023-01-11T11:45:04.000Z</published>
-    <updated>2023-01-11T12:58:24.185Z</updated>
+    <updated>2023-01-11T14:05:46.045Z</updated>
     
     
       
@@ -40,6 +40,33 @@
     <category term="github" scheme="https://reasonllh.github.io/tags/github/"/>
     
     <category term="图床" scheme="https://reasonllh.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux复习</title>
+    <link href="https://reasonllh.github.io/2023/01/11/linux-fu-xi/"/>
+    <id>https://reasonllh.github.io/2023/01/11/linux-fu-xi/</id>
+    <published>2023-01-11T11:45:04.000Z</published>
+    <updated>2023-05-24T06:56:17.410Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Linux-复习&quot;&gt;&lt;a href=&quot;#Linux-复习&quot; class=&quot;headerlink&quot; title=&quot;Linux 复习&quot;&gt;&lt;/a&gt;Linux 复习&lt;/h1&gt;&lt;h2 id=&quot;第一讲&quot;&gt;&lt;a href=&quot;#第一讲&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="linux" scheme="https://reasonllh.github.io/categories/linux/"/>
+    
+    
+    <category term="linux" scheme="https://reasonllh.github.io/tags/linux/"/>
+    
+    <category term="unix" scheme="https://reasonllh.github.io/tags/unix/"/>
     
   </entry>
   
